@@ -15,7 +15,7 @@ export default function Contact() {
             Get In Touch
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-300 lg:mx-auto">
-            I'm always open to new opportunities and collaborations. Feel free to reach out!
+            I&apos;m always open to new opportunities and collaborations. Feel free to reach out!
           </p>
         </div>
         <div className="mt-10 flex justify-center">

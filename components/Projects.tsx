@@ -87,7 +87,7 @@ export default function Projects() {
             </h3>
             <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
               These are just a few highlights from my portfolio. I have many more exciting projects 
-              involving AI, blockchain, and full-stack development. Let's connect and discuss them!
+              involving AI, blockchain, and full-stack development. Let&apos;s connect and discuss them!
             </p>
             <a
               href="https://www.linkedin.com/in/alexander-b-63a80a109/"
