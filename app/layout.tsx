@@ -9,7 +9,9 @@ export const metadata: Metadata = {
     description:
         "Portfolio of a software engineer specializing in React, TypeScript, and modern web technologies",
     icons: {
-        icon: "/favicon.ico"
+        icon: [
+            { url: "/favicon.ico" },
+        ],
     },
 };
 
