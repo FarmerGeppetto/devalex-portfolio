@@ -52,16 +52,18 @@ export default function Hero() {
                         {/* Main image container */}
                         <div className="relative z-10 w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-2xl overflow-hidden">
                             <Image
-                                src="/devalex.png"
+                                src="/devalex.jpeg"
                                 alt="Develax"
                                 width={500}
                                 height={500}
-                                className="object-cover w-full h-full rounded-2xl transform transition-transform duration-500 group-hover:scale-105"
+                                className="object-cover scale-110 rounded-2xl transform transition-transform duration-500 group-hover:scale-[1.2]"
                                 priority
                                 quality={100}
                             />
                             {/* Gradient overlay - removed cyan, reduced opacity further */}
                             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/5 to-transparent group-hover:opacity-30 transition duration-500"></div>
+                            {/* Blue banner at bottom */}
+                            <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 backdrop-blur-sm"></div>
                         </div>
 
                         {/* Decorative elements - adjusted colors and reduced opacity */}
