@@ -60,13 +60,13 @@ export default function Hero() {
                                 priority
                                 quality={100}
                             />
-                            {/* Gradient overlay - reduced blur and opacity */}
-                            <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-cyan-500/10 group-hover:opacity-50 transition duration-500"></div>
+                            {/* Gradient overlay - removed cyan, reduced opacity further */}
+                            <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/5 to-transparent group-hover:opacity-30 transition duration-500"></div>
                         </div>
 
-                        {/* Decorative elements - reduced blur */}
-                        <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl blur-md opacity-15 group-hover:opacity-25 transition duration-500"></div>
-                        <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl opacity-0 group-hover:opacity-40 blur transition duration-500"></div>
+                        {/* Decorative elements - adjusted colors and reduced opacity */}
+                        <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/10 to-blue-400/10 rounded-2xl blur-md opacity-10 group-hover:opacity-20 transition duration-500"></div>
+                        <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500/20 to-blue-400/20 rounded-2xl opacity-0 group-hover:opacity-30 blur transition duration-500"></div>
                     </div>
                 </div>
             </div>

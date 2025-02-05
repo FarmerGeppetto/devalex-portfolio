@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const projects = [
     {
-        name: "Kanagawabot",
+        name: "P1ne AI NFT Platform",
         description:
-            "A Web3 trading bot platform that automates cryptocurrency trading strategies. Features include MetaMask integration for secure crypto payments, customizable trading scripts, and real-time market analytics. Users can purchase and deploy trading bots directly through the platform.",
-        image: "/projects/kanagawabot.png",
+            "P1NE AI NFTs creates unique, mathematically-generated digital art pieces on the blockchain. Each artwork is born from pure code, producing one-of-a-kind algorithmic masterpieces that blend technology with artistic expression. With strictly limited collections of 50 pieces each, P1NE offers collectors exclusive access to verifiably unique digital art, backed by smart contracts on the Ethereum network. Join our community of digital art enthusiasts and explore the intersection of artificial intelligence, mathematics, and creative expression.",
+        image: "/projects/img_project-p1ne.png",
         technologies: ["React", "JavaScript", "Styled Components"],
         color: "bg-blue-800",
-        link: "https://www.kanagawabot.xyz/",
+        link: "https://www.p1ne.xyz/",
     },
     {
         name: "Home BudgIT",
